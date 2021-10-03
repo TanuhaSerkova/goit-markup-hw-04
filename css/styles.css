@@ -197,22 +197,20 @@ body {
   content: '';
   height: 120px;
   background: var(--secondary-bgc-color);
+  background-image: url(../images/sputnik.png);
   border-radius: 4px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
-.sputnik::before {
-  background-image: url(../images/vector.svg);
-}
 .time::before {
-  background-image: url();
+  background-image: url(../images/time.png);
 }
 .laptop::before {
-  background-image: url();
+  background-image: url(../images/laptop.png);
 }
 .kosmo::before {
-  background-image: url();
+  background-image: url(../images/cosmo.png);
 }
 .section-plan-title {
   margin-bottom: 10px;
