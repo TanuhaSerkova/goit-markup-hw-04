@@ -366,6 +366,11 @@ body {
   background-color: var(--accent-bgc-color);
 }
 .footer-container {
+  display: flex;
+}
+.footer-nav,
+.footer-social-icon {
+  align-items: center;
 }
 .logo-footer {
   display: block;
