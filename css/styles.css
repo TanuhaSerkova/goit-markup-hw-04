@@ -319,6 +319,10 @@ body {
   box-sizing: border-box;
   border-radius: 4px;
 }
+.logo-clients {
+  margin: 16px 32px;
+}
+
 /*Подвал страницы*/
 
 .footer {
