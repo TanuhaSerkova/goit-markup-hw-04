@@ -367,10 +367,10 @@ body {
 }
 .footer-container {
   display: flex;
-}
-.footer-nav,
-.footer-social-icon {
   align-items: center;
+}
+.footer-social-icon {
+  margin-left: 70px;
 }
 .logo-footer {
   display: block;
