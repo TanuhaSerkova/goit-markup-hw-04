@@ -402,9 +402,24 @@ body {
 .footer-contacts:focus {
   color: var(--accent-color);
 }
-.footer-list-title {
+.footer-title {
+  margin-bottom: 20px;
   color: var(--secondary-text-color);
   text-transform: uppercase;
+}
+.footer-list-icon {
+  display: flex;
+}
+.footer-social {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.footer-icon {
+  fill: var(--secondary-text-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--accent-color);
 }
 
 /*Страница Портфолио*/
