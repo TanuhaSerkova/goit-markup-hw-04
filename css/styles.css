@@ -198,20 +198,20 @@ body {
   content: '';
   height: 120px;
   background: var(--secondary-bgc-color);
-  background-image: url(../images/sputnik.png);
+  background-image: url();
   border-radius: 4px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .time::before {
-  background-image: url(../images/time.png);
+  background-image: url();
 }
 .laptop::before {
-  background-image: url(../images/laptop.png);
+  background-image: url();
 }
 .kosmo::before {
-  background-image: url(../images/cosmo.png);
+  background-image: url();
 }
 .section-plan-title {
   margin-bottom: 10px;
