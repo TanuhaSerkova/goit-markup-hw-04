@@ -350,7 +350,16 @@ body {
   margin-left: 30px;
   flex-basis: calc(100% / 6 - 30px);
 }
+.clients-link:hover .logo-clients,
+.clients-link:focus .logo-clients {
+  fill: var(--accent-color);
+}
 .logo-clients {
+  width: 106px;
+  height: 60px;
+  fill: var(--primary-icon-color);
+  align-items: center;
+  justify-content: center;
 }
 
 /*Подвал страницы*/
