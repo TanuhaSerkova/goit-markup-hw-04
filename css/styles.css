@@ -195,16 +195,17 @@ body {
   margin-top: -30px;
 }
 .section-plan-icon {
-  display: block;
+  display: flex;
   height: 120px;
   margin-bottom: 30px;
   background: var(--secondary-bgc-color);
   border-radius: 4px;
+  align-items: center;
+  justify-content: center;
 }
 .section-plan-svg {
   width: 70px;
   height: 70px;
-  margin: 25px 100px;
 }
 .section-plan-title {
   margin-bottom: 10px;
@@ -266,6 +267,7 @@ body {
   margin-top: -30px;
 }
 .item-img-team {
+  padding-bottom: 30px;
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 4 - 30px);
@@ -335,18 +337,20 @@ body {
   margin-left: -30px;
   margin-top: -30px;
 }
-.item-clients {
-  width: 170px;
+.item-clients .link {
+  display: flex;
   height: 92px;
-  margin-left: 30px;
-  margin-top: 30px;
-  flex-basis: calc(100% / 6 - 30px);
   border: 1px solid #afb1b8;
-  box-sizing: border-box;
   border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.item-clients {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc(100% / 6 - 30px);
 }
 .logo-clients {
-  margin: 16px 32px;
 }
 
 /*Подвал страницы*/
@@ -358,7 +362,7 @@ body {
 }
 .footer-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .footer-social-icon {
   margin-left: 70px;
@@ -460,13 +464,16 @@ body {
   margin-left: -30px;
   margin-top: -30px;
 }
+.item-pictures .link {
+  display: block;
+}
 .item-pictures {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 9 - 30px);
 }
-.item-pictures:hover,
-.item-pictures:focus {
+.item-pictures .link:hover,
+.item-pictures .link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
